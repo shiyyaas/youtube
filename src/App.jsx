@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import PageHeader from './layots/PageHeader'
+import Sidebar from './layots/Sidebar'
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
     <div className="max-h-screen flex flex-col">
       <PageHeader />
       <div className='flex'>
-        <div>sidebaar</div>
+        <Sidebar />
         <div>main videos</div>
       </div>
     </div>
